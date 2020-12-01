@@ -2,9 +2,18 @@ body{
     align-content: center;
 }
 
+h2{
+    background-color: grey;
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    cursor: grab;
+
+}
 div {
     border: 1px solid black;
-    border-radius: 10px;
+   
 }
 
 .background{
@@ -19,13 +28,15 @@ div {
     border-color: #f1faee;
 }
 #top{
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     display: flex;
     align-items: flex-start;
     height: fit-content;
 }
 
 .result{
+    font-family: 'Orbitron', sans-serif;
     text-align: end;
     word-wrap: break-word;
     overflow: scroll;
@@ -43,7 +54,8 @@ div {
     justify-content: space-between;
     align-items: flex-start;
     align-items: center;
-    border-radius: 10px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
    
 }
 
@@ -57,4 +69,5 @@ div {
     width: 100px;
     margin: 15px;
     border-radius: 5px;;
+    cursor: grab;
 }
